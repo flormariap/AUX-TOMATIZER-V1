@@ -26,5 +26,5 @@ En entornos sin systemd (contenedores), los scripts arrancan los servicios manua
 ## Estructura
 
 - `install.sh`: orquestador principal.
-- `scripts/`: pasos modulares.
+- `scripts/`: pasos modulares (incluye `08-desktop.sh` para entorno XFCE + VNC/noVNC opcional).
 - `config/`: configuraciones base.
