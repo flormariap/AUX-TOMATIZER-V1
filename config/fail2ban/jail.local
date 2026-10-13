@@ -1,0 +1,10 @@
+[DEFAULT]
+backend = polling
+
+[sshd]
+enabled = true
+port = ssh
+filter = sshd
+logpath = /var/log/auth.log
+maxretry = 5
+bantime = 3600
